@@ -19,6 +19,7 @@ Groundwork for **0.2.0** — see [`ROADMAP.md`](./ROADMAP.md).
 
 ### Added
 
+- **Ruby** language add-on and **Ruby on Rails** framework add-on (EN/ES) — first content of the 0.2.0 milestone.
 - **CI quality gate** (`.github/workflows/quality.yml`): validates EN/ES pairing, internal `.md` links, and Markdown style on every push and pull request.
 - **`scripts/check-structure.sh`** — dependency-free structural checks (twin files, author footer, fenced `text` block, internal links).
 - **`.markdownlint.jsonc`** house style and a **bilingual pull-request template**.

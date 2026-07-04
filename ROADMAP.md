@@ -19,8 +19,8 @@ consistent (EN/ES pairing, internal links, Markdown style).
 
 ### Content (new prompts)
 
-- Languages: **Ruby**, **PowerShell**.
-- Frameworks: **Ruby on Rails**, **Django**, **Spring Boot**, **Vue / Nuxt**.
+- Languages: **Ruby** ✅, **PowerShell**.
+- Frameworks: **Ruby on Rails** ✅, **Django**, **Spring Boot**, **Vue / Nuxt**.
 - New general dimension: **Testing & test-quality review**.
 
 → Grows the collection from 26 to 33 master prompts (8 general, 14 languages, 11 frameworks).

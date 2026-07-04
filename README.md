@@ -1,8 +1,8 @@
 # 🧠 Awesome Code Review Prompts
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Prompts](https://img.shields.io/badge/prompts-26-blue)
-![Stacks](https://img.shields.io/badge/stacks-19-orange)
+![Prompts](https://img.shields.io/badge/prompts-28-blue)
+![Stacks](https://img.shields.io/badge/stacks-21-orange)
 ![Languages](https://img.shields.io/badge/i18n-EN%20%7C%20ES-8A2BE2)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
@@ -11,7 +11,7 @@
 > dimensions that actually matter: **security, cybersecurity, performance, accessibility,
 > usability/UX, and code quality**.
 >
-> Language-agnostic master prompts + **19 stack-specific add-ons** (12 languages, 7 frameworks) — every prompt in **English and Spanish**.
+> Language-agnostic master prompts + **21 stack-specific add-ons** (13 languages, 8 frameworks) — every prompt in **English and Spanish**.
 
 🌍 **Español:** [`README-ES.md`](./README-ES.md) — every prompt has a Spanish twin ending in `-ES.md`.
 📖 **How to use it well:** [`docs/how-to-use.md`](./docs/how-to-use.md)
@@ -79,6 +79,7 @@ Append one of these **after** a general master prompt for deeper, idiomatic chec
 |---|---|---|
 | JavaScript / TypeScript | [javascript-typescript.md](./prompts/languages/javascript-typescript.md) | [·-ES.md](./prompts/languages/javascript-typescript-ES.md) |
 | Python | [python.md](./prompts/languages/python.md) | [·-ES.md](./prompts/languages/python-ES.md) |
+| Ruby | [ruby.md](./prompts/languages/ruby.md) | [·-ES.md](./prompts/languages/ruby-ES.md) |
 | PHP (modern, framework-agnostic) | [php-modern.md](./prompts/languages/php-modern.md) | [·-ES.md](./prompts/languages/php-modern-ES.md) |
 | PHP / WordPress | [php-wordpress.md](./prompts/languages/php-wordpress.md) | [·-ES.md](./prompts/languages/php-wordpress-ES.md) |
 | Java | [java.md](./prompts/languages/java.md) | [·-ES.md](./prompts/languages/java-ES.md) |
@@ -97,6 +98,7 @@ Append one of these **after** a general master prompt for deeper, idiomatic chec
 | React / Next.js | [react-nextjs.md](./prompts/frameworks/react-nextjs.md) | [·-ES.md](./prompts/frameworks/react-nextjs-ES.md) |
 | Laravel (PHP) | [laravel.md](./prompts/frameworks/laravel.md) | [·-ES.md](./prompts/frameworks/laravel-ES.md) |
 | Symfony (PHP) | [symfony.md](./prompts/frameworks/symfony.md) | [·-ES.md](./prompts/frameworks/symfony-ES.md) |
+| Ruby on Rails | [rails.md](./prompts/frameworks/rails.md) | [·-ES.md](./prompts/frameworks/rails-ES.md) |
 | Node.js / Express | [nodejs.md](./prompts/frameworks/nodejs.md) | [·-ES.md](./prompts/frameworks/nodejs-ES.md) |
 | Docker / Kubernetes | [docker-kubernetes.md](./prompts/frameworks/docker-kubernetes.md) | [·-ES.md](./prompts/frameworks/docker-kubernetes-ES.md) |
 | Terraform / IaC | [terraform.md](./prompts/frameworks/terraform.md) | [·-ES.md](./prompts/frameworks/terraform-ES.md) |

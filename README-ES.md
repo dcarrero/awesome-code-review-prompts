@@ -1,8 +1,8 @@
 # 🧠 Awesome Code Review Prompts
 
 ![Licencia: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Prompts](https://img.shields.io/badge/prompts-26-blue)
-![Stacks](https://img.shields.io/badge/stacks-19-orange)
+![Prompts](https://img.shields.io/badge/prompts-28-blue)
+![Stacks](https://img.shields.io/badge/stacks-21-orange)
 ![Idiomas](https://img.shields.io/badge/i18n-EN%20%7C%20ES-8A2BE2)
 ![PRs bienvenidos](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
@@ -11,8 +11,8 @@
 > dimensiones que de verdad importan: **seguridad, ciberseguridad, rendimiento,
 > accesibilidad, usabilidad/UX y calidad de código**.
 >
-> Prompts maestros agnósticos del lenguaje + **19 complementos específicos de stack**
-> (12 lenguajes, 7 frameworks) — cada prompt en **inglés y español**.
+> Prompts maestros agnósticos del lenguaje + **21 complementos específicos de stack**
+> (13 lenguajes, 8 frameworks) — cada prompt en **inglés y español**.
 
 🌍 **English:** [`README.md`](./README.md) — cada prompt tiene su gemelo en español que acaba en `-ES.md`.
 📖 **Cómo sacarle partido:** [`docs/how-to-use-ES.md`](./docs/how-to-use-ES.md)
@@ -82,6 +82,7 @@ Añádelos **después** de un prompt maestro general para comprobaciones más pr
 |---|---|---|
 | JavaScript / TypeScript | [javascript-typescript.md](./prompts/languages/javascript-typescript.md) | [·-ES.md](./prompts/languages/javascript-typescript-ES.md) |
 | Python | [python.md](./prompts/languages/python.md) | [·-ES.md](./prompts/languages/python-ES.md) |
+| Ruby | [ruby.md](./prompts/languages/ruby.md) | [·-ES.md](./prompts/languages/ruby-ES.md) |
 | PHP (moderno, agnóstico de framework) | [php-modern.md](./prompts/languages/php-modern.md) | [·-ES.md](./prompts/languages/php-modern-ES.md) |
 | PHP / WordPress | [php-wordpress.md](./prompts/languages/php-wordpress.md) | [·-ES.md](./prompts/languages/php-wordpress-ES.md) |
 | Java | [java.md](./prompts/languages/java.md) | [·-ES.md](./prompts/languages/java-ES.md) |
@@ -100,6 +101,7 @@ Añádelos **después** de un prompt maestro general para comprobaciones más pr
 | React / Next.js | [react-nextjs.md](./prompts/frameworks/react-nextjs.md) | [·-ES.md](./prompts/frameworks/react-nextjs-ES.md) |
 | Laravel (PHP) | [laravel.md](./prompts/frameworks/laravel.md) | [·-ES.md](./prompts/frameworks/laravel-ES.md) |
 | Symfony (PHP) | [symfony.md](./prompts/frameworks/symfony.md) | [·-ES.md](./prompts/frameworks/symfony-ES.md) |
+| Ruby on Rails | [rails.md](./prompts/frameworks/rails.md) | [·-ES.md](./prompts/frameworks/rails-ES.md) |
 | Node.js / Express | [nodejs.md](./prompts/frameworks/nodejs.md) | [·-ES.md](./prompts/frameworks/nodejs-ES.md) |
 | Docker / Kubernetes | [docker-kubernetes.md](./prompts/frameworks/docker-kubernetes.md) | [·-ES.md](./prompts/frameworks/docker-kubernetes-ES.md) |
 | Terraform / IaC | [terraform.md](./prompts/frameworks/terraform.md) | [·-ES.md](./prompts/frameworks/terraform-ES.md) |
