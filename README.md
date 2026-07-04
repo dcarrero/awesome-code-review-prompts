@@ -1,17 +1,17 @@
 # 🧠 Awesome Code Review Prompts
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Prompts](https://img.shields.io/badge/prompts-33-blue)
-![Stacks](https://img.shields.io/badge/stacks-25-orange)
+![Prompts](https://img.shields.io/badge/prompts-39-blue)
+![Stacks](https://img.shields.io/badge/stacks-30-orange)
 ![Languages](https://img.shields.io/badge/i18n-EN%20%7C%20ES-8A2BE2)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 > A curated, battle-tested collection of **master prompts** for asking an AI assistant
 > (built for **Claude Fable 5** and other Claude models) to review your code across the
 > dimensions that actually matter: **security, cybersecurity, performance, accessibility,
-> usability/UX, testing, and code quality**.
+> usability/UX, testing, AI/LLM safety, and code quality**.
 >
-> Language-agnostic master prompts + **25 stack-specific add-ons** (14 languages, 11 frameworks) — every prompt in **English and Spanish**.
+> Language-agnostic master prompts + **30 stack-specific add-ons** (14 languages, 16 frameworks) — every prompt in **English and Spanish**.
 
 🌍 **Español:** [`README-ES.md`](./README-ES.md) — every prompt has a Spanish twin ending in `-ES.md`.
 📖 **How to use it well:** [`docs/how-to-use.md`](./docs/how-to-use.md)
@@ -70,6 +70,7 @@ Every file is **English by default** (`name.md`) with a Spanish counterpart
 | 🎯 Usability / UX | [usability-ux.md](./prompts/general/usability-ux.md) | [usability-ux-ES.md](./prompts/general/usability-ux-ES.md) | Clarity, flows, feedback/state, error recovery, microcopy, consistency |
 | 🧹 Code Quality | [code-quality.md](./prompts/general/code-quality.md) | [code-quality-ES.md](./prompts/general/code-quality-ES.md) | Correctness, design, tests, readability, maintainability |
 | 🧪 Testing & Test Quality | [testing.md](./prompts/general/testing.md) | [testing-ES.md](./prompts/general/testing-ES.md) | Behavior coverage, assertion strength, flakiness, over-mocking, missing regression tests |
+| 🤖 AI / LLM Code Safety | [ai-llm-safety.md](./prompts/general/ai-llm-safety.md) | [ai-llm-safety-ES.md](./prompts/general/ai-llm-safety-ES.md) | Prompt injection, insecure output handling, excessive agency, RAG access control, data leakage (OWASP LLM Top 10) |
 | 🧭 All-in-One | [all-in-one.md](./prompts/general/all-in-one.md) | [all-in-one-ES.md](./prompts/general/all-in-one-ES.md) | Runs every dimension and produces a single scored release report |
 
 ## 📑 Index — language add-ons
@@ -99,12 +100,17 @@ Append one of these **after** a general master prompt for deeper, idiomatic chec
 |---|---|---|
 | React / Next.js | [react-nextjs.md](./prompts/frameworks/react-nextjs.md) | [·-ES.md](./prompts/frameworks/react-nextjs-ES.md) |
 | Vue / Nuxt | [vue-nuxt.md](./prompts/frameworks/vue-nuxt.md) | [·-ES.md](./prompts/frameworks/vue-nuxt-ES.md) |
+| Angular | [angular.md](./prompts/frameworks/angular.md) | [·-ES.md](./prompts/frameworks/angular-ES.md) |
 | Laravel (PHP) | [laravel.md](./prompts/frameworks/laravel.md) | [·-ES.md](./prompts/frameworks/laravel-ES.md) |
 | Symfony (PHP) | [symfony.md](./prompts/frameworks/symfony.md) | [·-ES.md](./prompts/frameworks/symfony-ES.md) |
+| FlightPHP (PHP micro) | [flightphp.md](./prompts/frameworks/flightphp.md) | [·-ES.md](./prompts/frameworks/flightphp-ES.md) |
 | Ruby on Rails | [rails.md](./prompts/frameworks/rails.md) | [·-ES.md](./prompts/frameworks/rails-ES.md) |
 | Django (Python) | [django.md](./prompts/frameworks/django.md) | [·-ES.md](./prompts/frameworks/django-ES.md) |
+| FastAPI (Python) | [fastapi.md](./prompts/frameworks/fastapi.md) | [·-ES.md](./prompts/frameworks/fastapi-ES.md) |
 | Spring Boot (Java) | [spring-boot.md](./prompts/frameworks/spring-boot.md) | [·-ES.md](./prompts/frameworks/spring-boot-ES.md) |
 | Node.js / Express | [nodejs.md](./prompts/frameworks/nodejs.md) | [·-ES.md](./prompts/frameworks/nodejs-ES.md) |
+| NestJS | [nestjs.md](./prompts/frameworks/nestjs.md) | [·-ES.md](./prompts/frameworks/nestjs-ES.md) |
+| Cloudflare Workers | [cloudflare-workers.md](./prompts/frameworks/cloudflare-workers.md) | [·-ES.md](./prompts/frameworks/cloudflare-workers-ES.md) |
 | Docker / Kubernetes | [docker-kubernetes.md](./prompts/frameworks/docker-kubernetes.md) | [·-ES.md](./prompts/frameworks/docker-kubernetes-ES.md) |
 | Terraform / IaC | [terraform.md](./prompts/frameworks/terraform.md) | [·-ES.md](./prompts/frameworks/terraform-ES.md) |
 | Bash / Shell | [bash.md](./prompts/frameworks/bash.md) | [·-ES.md](./prompts/frameworks/bash-ES.md) |

@@ -37,13 +37,20 @@ consistent (EN/ES pairing, internal links, Markdown style).
 Every new prompt ships as an EN/ES pair, is registered in both README index tables, keeps
 the author footer, updates the changelog under `[Unreleased]`, and passes CI.
 
-## Backlog (0.3.0+)
+## 0.3.0 — More frameworks + AI/LLM safety ✅ shipped
+
+- Frameworks: **FlightPHP** ✅, **FastAPI** ✅, **NestJS** ✅, **Angular** ✅, **Cloudflare Workers** ✅.
+- New general dimension: **AI/LLM code safety** ✅ (OWASP LLM Top 10; folded into all-in-one).
+
+→ Collection now at 39 master prompts (9 general, 14 languages, 16 frameworks).
+
+## Backlog (future)
 
 - **Languages:** Elixir, Dart, Scala, R.
-- **Frameworks / DevOps:** FastAPI, NestJS, Angular, SvelteKit, Flutter, Phoenix,
-  ASP.NET Core, Ansible, Helm, GitHub Actions, Serverless / Cloudflare Workers, GraphQL, gRPC.
-- **Dimensions:** Observability & logging, Data privacy & GDPR, AI/LLM code safety
-  (prompt injection), DB migration safety, Documentation review, i18n/l10n.
+- **Frameworks / DevOps:** SvelteKit, Flutter, Phoenix, ASP.NET Core, Ansible, Helm,
+  GitHub Actions, GraphQL, gRPC.
+- **Dimensions:** Observability & logging, Data privacy & GDPR, DB migration safety,
+  Documentation review, i18n/l10n.
 - **Meta:** one-paste "recipe" combos, per-prompt front-matter metadata for tooling, and a
   small assembler (script/Action) that stitches a general prompt + an add-on.
 

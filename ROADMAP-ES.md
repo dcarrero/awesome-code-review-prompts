@@ -37,13 +37,20 @@ mantienen coherente la colección (pares EN/ES, enlaces internos, estilo Markdow
 Cada prompt nuevo entra como par EN/ES, registrado en las tablas índice de ambos READMEs,
 conserva el footer de autor, actualiza el changelog bajo `[Sin publicar]` y pasa el CI.
 
-## Backlog (0.3.0+)
+## 0.3.0 — Más frameworks + seguridad IA/LLM ✅ publicado
+
+- Frameworks: **FlightPHP** ✅, **FastAPI** ✅, **NestJS** ✅, **Angular** ✅, **Cloudflare Workers** ✅.
+- Nueva dimensión general: **Seguridad de código IA/LLM** ✅ (OWASP LLM Top 10; integrada en el all-in-one).
+
+→ La colección ahora tiene 39 prompts maestros (9 generales, 14 lenguajes, 16 frameworks).
+
+## Backlog (futuro)
 
 - **Lenguajes:** Elixir, Dart, Scala, R.
-- **Frameworks / DevOps:** FastAPI, NestJS, Angular, SvelteKit, Flutter, Phoenix,
-  ASP.NET Core, Ansible, Helm, GitHub Actions, Serverless / Cloudflare Workers, GraphQL, gRPC.
-- **Dimensiones:** Observabilidad y logging, Privacidad de datos y GDPR, Seguridad de código
-  IA/LLM (prompt injection), Seguridad de migraciones de BD, Revisión de documentación, i18n/l10n.
+- **Frameworks / DevOps:** SvelteKit, Flutter, Phoenix, ASP.NET Core, Ansible, Helm,
+  GitHub Actions, GraphQL, gRPC.
+- **Dimensiones:** Observabilidad y logging, Privacidad de datos y GDPR, Seguridad de
+  migraciones de BD, Revisión de documentación, i18n/l10n.
 - **Meta:** combos "receta" de un solo pegado, metadata front-matter por prompt para tooling, y
   un pequeño ensamblador (script/Action) que una un prompt general + un complemento.
 

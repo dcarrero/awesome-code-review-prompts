@@ -21,6 +21,8 @@ Review across these dimensions and give each a score out of 10 with a one-line r
 6. Code quality & maintainability (correctness, design, tests, readability).
 7. Testing quality (behavior coverage, assertion strength, flakiness, over-mocking) —
    only if there are tests or testable logic.
+8. AI/LLM safety (prompt injection, insecure output handling, excessive agency) —
+   only if the code integrates a language model, tools/agents, or RAG.
 
 For each dimension list findings as: severity, exact location, impact, concrete fix
 (with corrected code). Do not invent issues; skip a dimension gracefully if N/A.

@@ -19,6 +19,8 @@ justificación:
 6. Calidad de código y mantenibilidad (corrección, diseño, tests, legibilidad).
 7. Calidad de los tests (cobertura de comportamiento, fuerza de las aserciones, flakiness,
    sobre-mockeo) — solo si hay tests o lógica testeable.
+8. Seguridad IA/LLM (prompt injection, manejo inseguro de la salida, agencia excesiva) —
+   solo si el código integra un modelo de lenguaje, tools/agentes o RAG.
 
 Para cada dimensión lista los hallazgos como: severidad, ubicación exacta, impacto,
 arreglo concreto (con código corregido). No inventes problemas; omite con elegancia

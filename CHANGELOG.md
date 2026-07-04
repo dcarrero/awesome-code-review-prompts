@@ -17,6 +17,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Nothing yet. Propose additions via a pull request — see [`CONTRIBUTING.md`](./CONTRIBUTING.md)._
 
+## [0.3.0] — 2026-07-04
+
+Five new stacks and a new dimension. Grows the collection to 39 master prompts (9 general, 14 languages, 16 frameworks).
+
+### Added
+
+- **New general dimension** — AI/LLM code safety (`prompts/general/ai-llm-safety.md`), mapping to the OWASP Top 10 for LLM Applications; also folded into the all-in-one review as an 8th scored dimension.
+- **Framework add-ons** — FlightPHP, FastAPI, NestJS, Angular, and Cloudflare Workers (EN/ES).
+
 ## [0.2.0] — 2026-07-04
 
 Wider stack coverage plus a quality-checked contribution pipeline. Grows the collection to 33 master prompts (8 general, 14 languages, 11 frameworks).
@@ -50,7 +59,8 @@ First public release: a curated, bilingual (EN/ES) collection of master prompts 
 - **Documentation**: `README.md` / `README-ES.md`, a usage guide (`docs/how-to-use.md` / `docs/how-to-use-ES.md`), and `CONTRIBUTING.md` with the two-files-per-prompt convention and style rules.
 - **Project scaffolding**: MIT `LICENSE`, `.gitignore`, and a GitHub issue template for proposing new stack add-ons.
 
-[Unreleased]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/dcarrero/awesome-code-review-prompts/releases/tag/v0.1.0
 

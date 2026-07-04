@@ -1,18 +1,18 @@
 # 🧠 Awesome Code Review Prompts
 
 ![Licencia: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Prompts](https://img.shields.io/badge/prompts-33-blue)
-![Stacks](https://img.shields.io/badge/stacks-25-orange)
+![Prompts](https://img.shields.io/badge/prompts-39-blue)
+![Stacks](https://img.shields.io/badge/stacks-30-orange)
 ![Idiomas](https://img.shields.io/badge/i18n-EN%20%7C%20ES-8A2BE2)
 ![PRs bienvenidos](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 > Una colección curada y probada de **prompts maestros** para pedirle a un asistente de IA
 > (pensado para **Claude Fable 5** y otros modelos Claude) que revise tu código en las
 > dimensiones que de verdad importan: **seguridad, ciberseguridad, rendimiento,
-> accesibilidad, usabilidad/UX, testing y calidad de código**.
+> accesibilidad, usabilidad/UX, testing, seguridad IA/LLM y calidad de código**.
 >
-> Prompts maestros agnósticos del lenguaje + **25 complementos específicos de stack**
-> (14 lenguajes, 11 frameworks) — cada prompt en **inglés y español**.
+> Prompts maestros agnósticos del lenguaje + **30 complementos específicos de stack**
+> (14 lenguajes, 16 frameworks) — cada prompt en **inglés y español**.
 
 🌍 **English:** [`README.md`](./README.md) — cada prompt tiene su gemelo en español que acaba en `-ES.md`.
 📖 **Cómo sacarle partido:** [`docs/how-to-use-ES.md`](./docs/how-to-use-ES.md)
@@ -73,6 +73,7 @@ Cada fichero está **en inglés por defecto** (`nombre.md`) con su equivalente e
 | 🎯 Usabilidad / UX | [usability-ux.md](./prompts/general/usability-ux.md) | [usability-ux-ES.md](./prompts/general/usability-ux-ES.md) | Claridad, flujos, feedback/estado, recuperación de errores, microcopy, consistencia |
 | 🧹 Calidad de código | [code-quality.md](./prompts/general/code-quality.md) | [code-quality-ES.md](./prompts/general/code-quality-ES.md) | Corrección, diseño, tests, legibilidad, mantenibilidad |
 | 🧪 Tests y calidad de tests | [testing.md](./prompts/general/testing.md) | [testing-ES.md](./prompts/general/testing-ES.md) | Cobertura de comportamiento, fuerza de las aserciones, flakiness, sobre-mockeo, tests de regresión ausentes |
+| 🤖 Seguridad de código IA/LLM | [ai-llm-safety.md](./prompts/general/ai-llm-safety.md) | [ai-llm-safety-ES.md](./prompts/general/ai-llm-safety-ES.md) | Prompt injection, manejo inseguro de la salida, agencia excesiva, control de acceso en RAG, fuga de datos (OWASP LLM Top 10) |
 | 🧭 Todo en uno | [all-in-one.md](./prompts/general/all-in-one.md) | [all-in-one-ES.md](./prompts/general/all-in-one-ES.md) | Ejecuta todas las dimensiones y produce un único informe con puntuación |
 
 ## 📑 Índice — complementos por lenguaje
@@ -102,12 +103,17 @@ Añádelos **después** de un prompt maestro general para comprobaciones más pr
 |---|---|---|
 | React / Next.js | [react-nextjs.md](./prompts/frameworks/react-nextjs.md) | [·-ES.md](./prompts/frameworks/react-nextjs-ES.md) |
 | Vue / Nuxt | [vue-nuxt.md](./prompts/frameworks/vue-nuxt.md) | [·-ES.md](./prompts/frameworks/vue-nuxt-ES.md) |
+| Angular | [angular.md](./prompts/frameworks/angular.md) | [·-ES.md](./prompts/frameworks/angular-ES.md) |
 | Laravel (PHP) | [laravel.md](./prompts/frameworks/laravel.md) | [·-ES.md](./prompts/frameworks/laravel-ES.md) |
 | Symfony (PHP) | [symfony.md](./prompts/frameworks/symfony.md) | [·-ES.md](./prompts/frameworks/symfony-ES.md) |
+| FlightPHP (PHP micro) | [flightphp.md](./prompts/frameworks/flightphp.md) | [·-ES.md](./prompts/frameworks/flightphp-ES.md) |
 | Ruby on Rails | [rails.md](./prompts/frameworks/rails.md) | [·-ES.md](./prompts/frameworks/rails-ES.md) |
 | Django (Python) | [django.md](./prompts/frameworks/django.md) | [·-ES.md](./prompts/frameworks/django-ES.md) |
+| FastAPI (Python) | [fastapi.md](./prompts/frameworks/fastapi.md) | [·-ES.md](./prompts/frameworks/fastapi-ES.md) |
 | Spring Boot (Java) | [spring-boot.md](./prompts/frameworks/spring-boot.md) | [·-ES.md](./prompts/frameworks/spring-boot-ES.md) |
 | Node.js / Express | [nodejs.md](./prompts/frameworks/nodejs.md) | [·-ES.md](./prompts/frameworks/nodejs-ES.md) |
+| NestJS | [nestjs.md](./prompts/frameworks/nestjs.md) | [·-ES.md](./prompts/frameworks/nestjs-ES.md) |
+| Cloudflare Workers | [cloudflare-workers.md](./prompts/frameworks/cloudflare-workers.md) | [·-ES.md](./prompts/frameworks/cloudflare-workers-ES.md) |
 | Docker / Kubernetes | [docker-kubernetes.md](./prompts/frameworks/docker-kubernetes.md) | [·-ES.md](./prompts/frameworks/docker-kubernetes-ES.md) |
 | Terraform / IaC | [terraform.md](./prompts/frameworks/terraform.md) | [·-ES.md](./prompts/frameworks/terraform-ES.md) |
 | Bash / Shell | [bash.md](./prompts/frameworks/bash.md) | [·-ES.md](./prompts/frameworks/bash-ES.md) |
