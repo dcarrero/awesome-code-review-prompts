@@ -1,17 +1,32 @@
 # 🧠 Awesome Code Review Prompts
 
+![Licencia: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Prompts](https://img.shields.io/badge/prompts-26-blue)
+![Stacks](https://img.shields.io/badge/stacks-19-orange)
+![Idiomas](https://img.shields.io/badge/i18n-EN%20%7C%20ES-8A2BE2)
+![PRs bienvenidos](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 > Una colección curada y probada de **prompts maestros** para pedirle a un asistente de IA
 > (pensado para **Claude Fable 5** y otros modelos Claude) que revise tu código en las
 > dimensiones que de verdad importan: **seguridad, ciberseguridad, rendimiento,
 > accesibilidad, usabilidad/UX y calidad de código**.
 >
-> Prompts maestros agnósticos del lenguaje + complementos específicos para más de 18
-> lenguajes y frameworks.
+> Prompts maestros agnósticos del lenguaje + **19 complementos específicos de stack**
+> (12 lenguajes, 7 frameworks) — cada prompt en **inglés y español**.
 
 🌍 **English:** [`README.md`](./README.md) — cada prompt tiene su gemelo en español que acaba en `-ES.md`.
 📖 **Cómo sacarle partido:** [`docs/how-to-use-ES.md`](./docs/how-to-use-ES.md)
+🗒️ **Changelog:** [`CHANGELOG-ES.md`](./CHANGELOG-ES.md)
 ✍️ **Autor:** David Carrero Fernández-Baillo — [carrero.es](https://carrero.es) · [github.com/dcarrero](https://github.com/dcarrero)
 📦 **Repositorio:** https://github.com/dcarrero/awesome-code-review-prompts
+
+<p align="center">
+  <a href="https://administraciondesistemas.com/revision-de-codigo-e-infraestructura-con-ia-y-sin-ella-guia-practica-para-administradores-de-sistemas-y-desarrolladores/">
+    <img src="https://administraciondesistemas.com/wp-content/uploads/2026/07/geniales-prompts-revision-codigo-min-1024x559.jpg" alt="Revisión de código e infraestructura, con IA y sin ella" width="720">
+  </a>
+</p>
+
+> 📝 **Guía recomendada:** [Revisión de código e infraestructura, con IA y sin ella: guía práctica para administradores de sistemas y desarrolladores](https://administraciondesistemas.com/revision-de-codigo-e-infraestructura-con-ia-y-sin-ella-guia-practica-para-administradores-de-sistemas-y-desarrolladores/) — el artículo complementario que explica el porqué y el cómo de esta colección.
 
 ---
 
@@ -65,30 +80,30 @@ Añádelos **después** de un prompt maestro general para comprobaciones más pr
 
 | Lenguaje | English | Español |
 |---|---|---|
-| JavaScript / TypeScript | [.md](./prompts/languages/javascript-typescript.md) | [·-ES.md](./prompts/languages/javascript-typescript-ES.md) |
-| Python | [.md](./prompts/languages/python.md) | [·-ES.md](./prompts/languages/python-ES.md) |
-| PHP (moderno, agnóstico de framework) | [.md](./prompts/languages/php-modern.md) | [·-ES.md](./prompts/languages/php-modern-ES.md) |
-| PHP / WordPress | [.md](./prompts/languages/php-wordpress.md) | [·-ES.md](./prompts/languages/php-wordpress-ES.md) |
-| Java | [.md](./prompts/languages/java.md) | [·-ES.md](./prompts/languages/java-ES.md) |
-| Go | [.md](./prompts/languages/go.md) | [·-ES.md](./prompts/languages/go-ES.md) |
-| C# / .NET | [.md](./prompts/languages/csharp-dotnet.md) | [·-ES.md](./prompts/languages/csharp-dotnet-ES.md) |
-| Swift / iOS | [.md](./prompts/languages/swift-ios.md) | [·-ES.md](./prompts/languages/swift-ios-ES.md) |
-| Kotlin / Android | [.md](./prompts/languages/kotlin-android.md) | [·-ES.md](./prompts/languages/kotlin-android-ES.md) |
-| Rust | [.md](./prompts/languages/rust.md) | [·-ES.md](./prompts/languages/rust-ES.md) |
-| C / C++ | [.md](./prompts/languages/c-cpp.md) | [·-ES.md](./prompts/languages/c-cpp-ES.md) |
-| SQL / Bases de datos | [.md](./prompts/languages/sql.md) | [·-ES.md](./prompts/languages/sql-ES.md) |
+| JavaScript / TypeScript | [javascript-typescript.md](./prompts/languages/javascript-typescript.md) | [·-ES.md](./prompts/languages/javascript-typescript-ES.md) |
+| Python | [python.md](./prompts/languages/python.md) | [·-ES.md](./prompts/languages/python-ES.md) |
+| PHP (moderno, agnóstico de framework) | [php-modern.md](./prompts/languages/php-modern.md) | [·-ES.md](./prompts/languages/php-modern-ES.md) |
+| PHP / WordPress | [php-wordpress.md](./prompts/languages/php-wordpress.md) | [·-ES.md](./prompts/languages/php-wordpress-ES.md) |
+| Java | [java.md](./prompts/languages/java.md) | [·-ES.md](./prompts/languages/java-ES.md) |
+| Go | [go.md](./prompts/languages/go.md) | [·-ES.md](./prompts/languages/go-ES.md) |
+| C# / .NET | [csharp-dotnet.md](./prompts/languages/csharp-dotnet.md) | [·-ES.md](./prompts/languages/csharp-dotnet-ES.md) |
+| Swift / iOS | [swift-ios.md](./prompts/languages/swift-ios.md) | [·-ES.md](./prompts/languages/swift-ios-ES.md) |
+| Kotlin / Android | [kotlin-android.md](./prompts/languages/kotlin-android.md) | [·-ES.md](./prompts/languages/kotlin-android-ES.md) |
+| Rust | [rust.md](./prompts/languages/rust.md) | [·-ES.md](./prompts/languages/rust-ES.md) |
+| C / C++ | [c-cpp.md](./prompts/languages/c-cpp.md) | [·-ES.md](./prompts/languages/c-cpp-ES.md) |
+| SQL / Bases de datos | [sql.md](./prompts/languages/sql.md) | [·-ES.md](./prompts/languages/sql-ES.md) |
 
 ## 📑 Índice — complementos de framework y DevOps
 
 | Stack | English | Español |
 |---|---|---|
-| React / Next.js | [.md](./prompts/frameworks/react-nextjs.md) | [·-ES.md](./prompts/frameworks/react-nextjs-ES.md) |
-| Laravel (PHP) | [.md](./prompts/frameworks/laravel.md) | [·-ES.md](./prompts/frameworks/laravel-ES.md) |
-| Symfony (PHP) | [.md](./prompts/frameworks/symfony.md) | [·-ES.md](./prompts/frameworks/symfony-ES.md) |
-| Node.js / Express | [.md](./prompts/frameworks/nodejs.md) | [·-ES.md](./prompts/frameworks/nodejs-ES.md) |
-| Docker / Kubernetes | [.md](./prompts/frameworks/docker-kubernetes.md) | [·-ES.md](./prompts/frameworks/docker-kubernetes-ES.md) |
-| Terraform / IaC | [.md](./prompts/frameworks/terraform.md) | [·-ES.md](./prompts/frameworks/terraform-ES.md) |
-| Bash / Shell | [.md](./prompts/frameworks/bash.md) | [·-ES.md](./prompts/frameworks/bash-ES.md) |
+| React / Next.js | [react-nextjs.md](./prompts/frameworks/react-nextjs.md) | [·-ES.md](./prompts/frameworks/react-nextjs-ES.md) |
+| Laravel (PHP) | [laravel.md](./prompts/frameworks/laravel.md) | [·-ES.md](./prompts/frameworks/laravel-ES.md) |
+| Symfony (PHP) | [symfony.md](./prompts/frameworks/symfony.md) | [·-ES.md](./prompts/frameworks/symfony-ES.md) |
+| Node.js / Express | [nodejs.md](./prompts/frameworks/nodejs.md) | [·-ES.md](./prompts/frameworks/nodejs-ES.md) |
+| Docker / Kubernetes | [docker-kubernetes.md](./prompts/frameworks/docker-kubernetes.md) | [·-ES.md](./prompts/frameworks/docker-kubernetes-ES.md) |
+| Terraform / IaC | [terraform.md](./prompts/frameworks/terraform.md) | [·-ES.md](./prompts/frameworks/terraform-ES.md) |
+| Bash / Shell | [bash.md](./prompts/frameworks/bash.md) | [·-ES.md](./prompts/frameworks/bash-ES.md) |
 
 ## Combinaciones recomendadas
 

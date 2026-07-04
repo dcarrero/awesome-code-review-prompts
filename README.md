@@ -1,16 +1,31 @@
 # 🧠 Awesome Code Review Prompts
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Prompts](https://img.shields.io/badge/prompts-26-blue)
+![Stacks](https://img.shields.io/badge/stacks-19-orange)
+![Languages](https://img.shields.io/badge/i18n-EN%20%7C%20ES-8A2BE2)
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 > A curated, battle-tested collection of **master prompts** for asking an AI assistant
 > (built for **Claude Fable 5** and other Claude models) to review your code across the
 > dimensions that actually matter: **security, cybersecurity, performance, accessibility,
 > usability/UX, and code quality**.
 >
-> Language-agnostic master prompts + stack-specific add-ons for 18+ languages and frameworks.
+> Language-agnostic master prompts + **19 stack-specific add-ons** (12 languages, 7 frameworks) — every prompt in **English and Spanish**.
 
 🌍 **Español:** [`README-ES.md`](./README-ES.md) — every prompt has a Spanish twin ending in `-ES.md`.
 📖 **How to use it well:** [`docs/how-to-use.md`](./docs/how-to-use.md)
+🗒️ **Changelog:** [`CHANGELOG.md`](./CHANGELOG.md)
 ✍️ **Author:** David Carrero Fernández-Baillo — [carrero.es](https://carrero.es) · [github.com/dcarrero](https://github.com/dcarrero)
 📦 **Repository:** https://github.com/dcarrero/awesome-code-review-prompts
+
+<p align="center">
+  <a href="https://systemadministration.net/code-and-infrastructure-review-with-and-without-ai-a-practical-guide-for-system-administrators-and-developers/">
+    <img src="https://systemadministration.net/wp-content/uploads/2026/07/awesome-code-reviewe-prompts-min-1024x559.jpg" alt="Code and Infrastructure Review, With and Without AI" width="720">
+  </a>
+</p>
+
+> 📝 **Featured guide:** [Code and Infrastructure Review, With and Without AI: A Practical Guide for System Administrators and Developers](https://systemadministration.net/code-and-infrastructure-review-with-and-without-ai-a-practical-guide-for-system-administrators-and-developers/) — the companion article that explains the why and how behind this collection.
 
 ---
 
