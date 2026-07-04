@@ -3,6 +3,7 @@
 > For any UI: web, mobile, or desktop. Targets WCAG 2.2 AA by default.
 
 ## When to use it
+
 On any UI change, new component, or before a release that ships user-facing screens.
 
 ## The master prompt (copy–paste)
@@ -47,6 +48,7 @@ scope before reviewing.
 ```
 
 ## Tips
+
 - Include the rendered markup or component code, not just logic, so structure is visible.
 - Ask for a "screen-reader script" of how a component is announced to catch subtle gaps.
 

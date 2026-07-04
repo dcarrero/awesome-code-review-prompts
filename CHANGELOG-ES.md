@@ -6,21 +6,35 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es/1.1.0/),
 y este proyecto sigue [Versionado Semántico](https://semver.org/lang/es/).
 
 > **Política de versionado para una colección de prompts**
+>
 > - **MAYOR** — cambio incompatible en la estructura del prompt, la organización de carpetas o la convención de nombres de fichero.
 > - **MENOR** — nuevos prompts (dimensiones, lenguajes, frameworks) o añadidos relevantes a los existentes.
 > - **PARCHE** — correcciones de redacción, erratas, arreglos de enlaces/tablas y pulido de documentación que no cambian lo que pide un prompt.
 
-🌍 English: [`CHANGELOG.md`](./CHANGELOG.md)
+🌍 English: [`CHANGELOG.md`](./CHANGELOG.md) · 🧭 Roadmap: [`ROADMAP-ES.md`](./ROADMAP-ES.md)
 
 ## [Sin publicar]
 
-_Nada por ahora. Propón añadidos mediante un pull request — consulta [`CONTRIBUTING.md`](./CONTRIBUTING.md)._
+Base para la **0.2.0** — consulta [`ROADMAP-ES.md`](./ROADMAP-ES.md).
+
+### Añadido
+
+- **Puerta de calidad en CI** (`.github/workflows/quality.yml`): valida el emparejamiento EN/ES, los enlaces internos `.md` y el estilo Markdown en cada push y pull request.
+- **`scripts/check-structure.sh`** — comprobaciones estructurales sin dependencias (ficheros gemelos, footer de autor, bloque `text`, enlaces internos).
+- **Estilo `.markdownlint.jsonc`** y una **plantilla de pull request bilingüe**.
+- **`.editorconfig`** para formato consistente entre colaboradores.
+- **`ROADMAP.md` / `ROADMAP-ES.md`** documentando el plan y el backlog de la 0.2.0.
+
+### Cambiado
+
+- Normalizado el espaciado Markdown (líneas en blanco alrededor de headings y listas) y envueltas las URLs sueltas en toda la documentación — solo formato, sin cambios de redacción.
 
 ## [0.1.0] — 2026-07-04
 
 Primera versión pública: una colección curada y bilingüe (EN/ES) de prompts maestros para revisión de código asistida por IA, pensada para Claude Fable 5 y otros modelos Claude.
 
 ### Añadido
+
 - **7 prompts maestros generales** (`prompts/general/`): seguridad de aplicación, ciberseguridad e infraestructura, rendimiento, accesibilidad (WCAG 2.2 AA), usabilidad/UX, calidad de código y una revisión todo en uno con puntuación de release.
 - **12 complementos por lenguaje** (`prompts/languages/`): JavaScript/TypeScript, Python, PHP (moderno), PHP/WordPress, Java, Go, C#/.NET, Swift/iOS, Kotlin/Android, Rust, C/C++ y SQL/bases de datos.
 - **7 complementos de framework y DevOps** (`prompts/frameworks/`): React/Next.js, Laravel, Symfony, Node.js/Express, Docker/Kubernetes, Terraform/IaC y Bash/Shell.

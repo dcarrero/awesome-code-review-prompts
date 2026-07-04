@@ -4,6 +4,7 @@
 > dependencies, secrets, infra-as-code, CI/CD, and threat modeling.
 
 ## When to use it
+
 Before shipping infrastructure changes, when adding/upgrading dependencies, when reviewing containers/pipelines, or as a quarterly posture review.
 
 ## The master prompt (copy–paste)
@@ -48,6 +49,7 @@ compliance targets before starting if that materially changes the review.
 ```
 
 ## Tips
+
 - Feed it `package.json` / `requirements.txt` / `go.mod` for a fast dependency triage.
 - Combine with `security.md` for a complete "code + infra" security pass.
 

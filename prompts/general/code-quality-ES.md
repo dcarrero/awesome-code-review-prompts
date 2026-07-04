@@ -1,6 +1,7 @@
 # 🧹 Prompt maestro — Calidad de código y mantenibilidad (Español)
 
 ## Cuándo usarlo
+
 En cualquier PR, antes de fusionar, o cuando un módulo se ha vuelto difícil de cambiar con seguridad.
 
 ## El prompt maestro (copiar y pegar)

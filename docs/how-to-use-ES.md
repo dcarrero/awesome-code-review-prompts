@@ -16,6 +16,7 @@ Ideas, patrones y flujos de trabajo para sacar el máximo partido a **Awesome Co
 ## Flujos de trabajo principales
 
 ### 1. Control previo al merge (PR gate)
+
 Pega `git diff origin/main...HEAD` junto a [`all-in-one-ES.md`](../prompts/general/all-in-one-ES.md).
 Pide solo la tabla de puntuaciones + elementos bloqueantes. Regla práctica: **bloquea ante
 cualquier Crítico o Alto**.
@@ -30,10 +31,12 @@ Devuelve solo: la tabla de puntuaciones, el arreglo más importante y el veredic
 ```
 
 ### 2. Auditoría profunda de una sola dimensión
+
 Apunta una dimensión a toda una carpeta antes de una release o revisión de seguridad. Ideal
 para `security` + `cybersecurity` en un backend, o `accessibility` en un paquete de UI.
 
 ### 3. Revisión apilada (general + stack)
+
 La combinación de mayor señal. El prompt general da amplitud; el complemento da profundidad idiomática.
 
 ```
@@ -45,10 +48,12 @@ Código:
 ```
 
 ### 4. Aprendizaje / mentoría
+
 Pide al modelo que explique el *porqué* de cada hallazgo y enlace al estándar (OWASP, CWE,
 WCAG). Los juniors se llevan el razonamiento, no solo el parche.
 
 ### 5. Bucle de corrección
+
 Tras la revisión, pide: *"Aplica los arreglos Críticos y Altos y muéstrame el diff."* Luego
 vuelve a lanzar el mismo prompt sobre el nuevo diff para confirmar que los problemas desaparecieron.
 

@@ -3,6 +3,7 @@
 > Language-agnostic. Finds slow paths, wasted resources, and scalability cliffs.
 
 ## When to use it
+
 Before shipping hot-path changes, when latency/cost regresses, or as a periodic profiling-guided review.
 
 ## The master prompt (copy–paste)
@@ -48,6 +49,7 @@ if it changes the priorities.
 ```
 
 ## Tips
+
 - Give it representative data volumes ("this table has ~5M rows") for realistic advice.
 - Pair with the language file (e.g., `python.md`) for runtime-specific tricks.
 

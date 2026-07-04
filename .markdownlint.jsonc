@@ -1,0 +1,25 @@
+{
+  // Markdownlint config tuned to this repo's house style.
+  // Structural correctness is enforced; purely cosmetic rules that fight
+  // our prompt/README conventions are relaxed.
+  "default": true,
+
+  // Long prose lines are intentional in prompts and tables.
+  "MD013": false,
+
+  // We use raw HTML on purpose (<p align>, <img>, <sub>, <details>).
+  "MD033": false,
+
+  // Docs contain plain ``` blocks for paste-in examples (no language).
+  "MD040": false,
+
+  // Duplicate headings are fine as long as they are not siblings
+  // ("Tips", "When to use it" repeat across sections/files).
+  "MD024": { "siblings_only": true },
+
+  // Allow the first line to be an HTML comment/frontmatter in issue templates.
+  "MD041": false,
+
+  // Pedantic table-pipe spacing; our compact tables render correctly on GitHub.
+  "MD060": false
+}

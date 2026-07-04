@@ -12,11 +12,13 @@ labels: enhancement
 <!-- Why this stack deserves its own add-on -->
 
 ## Key checks to include / Comprobaciones clave a incluir
+
 - Security / Seguridad:
 - Correctness / Corrección:
 - Performance / Rendimiento:
 - Quality / Calidad:
 
 ## Are you submitting a PR? / ¿Vas a enviar un PR?
+
 - [ ] Yes / Sí
 - [ ] No — requesting someone else / No, lo propongo para otros

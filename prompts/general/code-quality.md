@@ -3,6 +3,7 @@
 > Language-agnostic. Covers readability, design, testing, and long-term health.
 
 ## When to use it
+
 On any PR, before merging, or when a module has become hard to change safely.
 
 ## The master prompt (copy–paste)
@@ -48,6 +49,7 @@ and constraints before reviewing.
 ```
 
 ## Tips
+
 - State the maturity level ("this is a throwaway prototype" vs. "core billing service")
   so the bar matches reality.
 - Ask for feedback as inline PR comments to paste straight into review.

@@ -16,9 +16,9 @@
 
 🌍 **English:** [`README.md`](./README.md) — cada prompt tiene su gemelo en español que acaba en `-ES.md`.
 📖 **Cómo sacarle partido:** [`docs/how-to-use-ES.md`](./docs/how-to-use-ES.md)
-🗒️ **Changelog:** [`CHANGELOG-ES.md`](./CHANGELOG-ES.md)
+🗒️ **Changelog:** [`CHANGELOG-ES.md`](./CHANGELOG-ES.md) · 🧭 **Roadmap:** [`ROADMAP-ES.md`](./ROADMAP-ES.md)
 ✍️ **Autor:** David Carrero Fernández-Baillo — [carrero.es](https://carrero.es) · [github.com/dcarrero](https://github.com/dcarrero)
-📦 **Repositorio:** https://github.com/dcarrero/awesome-code-review-prompts
+📦 **Repositorio:** <https://github.com/dcarrero/awesome-code-review-prompts>
 
 <p align="center">
   <a href="https://administraciondesistemas.com/revision-de-codigo-e-infraestructura-con-ia-y-sin-ella-guia-practica-para-administradores-de-sistemas-y-desarrolladores/">

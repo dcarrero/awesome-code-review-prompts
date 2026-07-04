@@ -1,0 +1,30 @@
+name: Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  structure:
+    name: Structure (EN/ES pairs + links)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run structural checks
+        run: bash scripts/check-structure.sh
+
+  markdownlint:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Lint Markdown
+        # Pinned for reproducibility: new lint rules should be opted into, not sprung on CI.
+        run: npx --yes markdownlint-cli2@0.23.0 "**/*.md" "#node_modules"

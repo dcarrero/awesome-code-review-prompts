@@ -1,6 +1,7 @@
 # ♿ Prompt maestro — Accesibilidad (a11y) (Español)
 
 ## Cuándo usarlo
+
 En cualquier cambio de UI, componente nuevo, o antes de una release con pantallas de cara al usuario.
 
 ## El prompt maestro (copiar y pegar)

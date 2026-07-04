@@ -1,6 +1,7 @@
 # 🔒 Prompt maestro — Revisión de seguridad de aplicación (Español)
 
 ## Cuándo usarlo
+
 Antes de fusionar cualquier cambio que toque autenticación, autorización, entrada de usuario, almacenamiento de datos, manejo de ficheros o peticiones externas. También como auditoría periódica de todo el repositorio.
 
 ## El prompt maestro (copiar y pegar)

@@ -3,6 +3,7 @@
 > Language-agnostic. Works for any project, any stack, any AI reviewer (Claude Fable 5, other Claude models, etc.).
 
 ## When to use it
+
 Run this before merging any change that touches authentication, authorization, user input, data storage, file handling, or external requests. Also good as a periodic full-repo audit.
 
 ## The master prompt (copy–paste)
@@ -47,6 +48,7 @@ ask me up to 3 targeted questions before reviewing.
 ```
 
 ## Tips
+
 - Paste the diff (`git diff`) for a fast PR gate; paste the folder for a deep audit.
 - Ask for the findings as a Markdown table if you want to drop them into an issue tracker.
 - Pair with `cybersecurity.md` (infra/supply chain) for full coverage.

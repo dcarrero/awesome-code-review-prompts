@@ -1,6 +1,7 @@
 # 🛡️ Prompt maestro — Ciberseguridad, infraestructura y cadena de suministro (Español)
 
 ## Cuándo usarlo
+
 Antes de publicar cambios de infraestructura, al añadir/actualizar dependencias, al revisar contenedores/pipelines, o como revisión trimestral de postura.
 
 ## El prompt maestro (copiar y pegar)

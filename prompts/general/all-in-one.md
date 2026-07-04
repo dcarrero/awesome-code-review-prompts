@@ -36,6 +36,7 @@ there a UI?).
 ```
 
 ## Tips
+
 - Great as a pre-merge gate: paste `git diff` and ask for the scorecard only.
 - For big repos, run it folder by folder to keep findings precise.
 

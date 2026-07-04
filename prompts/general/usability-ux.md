@@ -3,6 +3,7 @@
 > For any product surface: web, mobile, CLI, or API. Focuses on the human using it.
 
 ## When to use it
+
 On new flows, redesigns, onboarding, error handling, or when users report friction.
 
 ## The master prompt (copy–paste)
@@ -48,6 +49,7 @@ before reviewing.
 ```
 
 ## Tips
+
 - Provide the user's actual goal ("they're trying to refund an order") for sharper feedback.
 - Ask it to rewrite your microcopy inline for quick wins.
 

@@ -1,6 +1,7 @@
 # 🎯 Prompt maestro — Usabilidad y UX (Español)
 
 ## Cuándo usarlo
+
 En flujos nuevos, rediseños, onboarding, manejo de errores, o cuando los usuarios reportan fricción.
 
 ## El prompt maestro (copiar y pegar)

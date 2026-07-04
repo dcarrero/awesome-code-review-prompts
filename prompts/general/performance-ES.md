@@ -1,6 +1,7 @@
 # ⚡ Prompt maestro — Rendimiento y eficiencia (Español)
 
 ## Cuándo usarlo
+
 Antes de publicar cambios en rutas calientes, cuando la latencia/coste empeora, o como revisión periódica guiada por profiling.
 
 ## El prompt maestro (copiar y pegar)

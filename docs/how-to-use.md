@@ -16,6 +16,7 @@ Ideas, patterns, and workflows to get the most out of **Awesome Code Review Prom
 ## Core workflows
 
 ### 1. Pre-merge PR gate
+
 Paste `git diff origin/main...HEAD` plus [`all-in-one.md`](../prompts/general/all-in-one.md).
 Ask only for the scorecard + blocking items. Rule of thumb: **block on any Critical or High**.
 
@@ -29,10 +30,12 @@ Return only: the scorecard table, the single top fix, and the release verdict.
 ```
 
 ### 2. Deep single-dimension audit
+
 Point one dimension at a whole folder before a release or a security review. Great for
 `security` + `cybersecurity` on a backend, or `accessibility` on a UI package.
 
 ### 3. Stacked review (general + stack)
+
 The highest-signal combo. The general prompt gives breadth; the add-on gives idiomatic depth.
 
 ```
@@ -44,10 +47,12 @@ Codebase:
 ```
 
 ### 4. Learning / mentoring
+
 Ask the model to explain the *why* behind each finding and link to the standard (OWASP,
 CWE, WCAG). Juniors get the reasoning, not just the patch.
 
 ### 5. Fix-forward loop
+
 After the review, ask: *"Apply the Critical and High fixes and show me the diff."* Then
 re-run the same prompt on the new diff to confirm the issues are gone.
 

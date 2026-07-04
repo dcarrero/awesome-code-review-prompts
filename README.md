@@ -15,9 +15,9 @@
 
 🌍 **Español:** [`README-ES.md`](./README-ES.md) — every prompt has a Spanish twin ending in `-ES.md`.
 📖 **How to use it well:** [`docs/how-to-use.md`](./docs/how-to-use.md)
-🗒️ **Changelog:** [`CHANGELOG.md`](./CHANGELOG.md)
+🗒️ **Changelog:** [`CHANGELOG.md`](./CHANGELOG.md) · 🧭 **Roadmap:** [`ROADMAP.md`](./ROADMAP.md)
 ✍️ **Author:** David Carrero Fernández-Baillo — [carrero.es](https://carrero.es) · [github.com/dcarrero](https://github.com/dcarrero)
-📦 **Repository:** https://github.com/dcarrero/awesome-code-review-prompts
+📦 **Repository:** <https://github.com/dcarrero/awesome-code-review-prompts>
 
 <p align="center">
   <a href="https://systemadministration.net/code-and-infrastructure-review-with-and-without-ai-a-practical-guide-for-system-administrators-and-developers/">

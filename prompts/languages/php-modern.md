@@ -44,6 +44,7 @@ Report in the base prompt's format, citing exact file:line.
 ```
 
 ## Tips
+
 - For CMS code use `php-wordpress.md`; for app frameworks add `laravel.md` or `symfony.md`.
 - Ask it to confirm the PHP version — 8.1/8.2/8.3 unlock different idioms.
 

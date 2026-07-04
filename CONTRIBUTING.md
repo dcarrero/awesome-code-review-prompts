@@ -35,9 +35,27 @@ Thanks for helping improve **Awesome Code Review Prompts**! · ¡Gracias por mej
 
 ## Style / Estilo
 
-- Use fenced ```text blocks for the copy-paste prompt body. · Usa bloques ```text para el
+- Use fenced ```text blocks for the copy-paste prompt body. · Usa bloques```text para el
   cuerpo del prompt.
 - Prefer concrete, testable checks over generic statements. · Prefiere comprobaciones
   concretas y verificables.
 - Reference recognized standards where useful (OWASP, CWE, WCAG, CIS). · Referencia
   estándares reconocidos cuando ayude.
+
+## Quality checks / Comprobaciones de calidad
+
+Before opening a PR, run the same checks CI runs — they must pass. · Antes de abrir un PR,
+ejecuta las mismas comprobaciones que el CI; deben pasar.
+
+```bash
+bash scripts/check-structure.sh            # EN/ES pairs, footers, internal links
+npx --yes markdownlint-cli2 "**/*.md" "#node_modules"   # Markdown style
+```
+
+CI (`.github/workflows/quality.yml`) runs both on every push and pull request. · El CI las
+ejecuta en cada push y pull request.
+
+## Roadmap
+
+See [`ROADMAP.md`](./ROADMAP.md) (· [`ROADMAP-ES.md`](./ROADMAP-ES.md)) for what's planned
+next and the backlog. · Consulta el [`ROADMAP.md`](./ROADMAP.md) para lo previsto y el backlog.
