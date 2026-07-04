@@ -15,7 +15,11 @@ y este proyecto sigue [Versionado Semántico](https://semver.org/lang/es/).
 
 ## [Sin publicar]
 
-Base para la **0.2.0** — consulta [`ROADMAP-ES.md`](./ROADMAP-ES.md).
+_Nada por ahora. Propón añadidos mediante un pull request — consulta [`CONTRIBUTING.md`](./CONTRIBUTING.md)._
+
+## [0.2.0] — 2026-07-04
+
+Mayor cobertura de stacks más un pipeline de contribución con control de calidad. Crece la colección hasta 33 prompts maestros (8 generales, 14 lenguajes, 11 frameworks).
 
 ### Añadido
 
@@ -46,7 +50,8 @@ Primera versión pública: una colección curada y bilingüe (EN/ES) de prompts 
 - **Documentación**: `README.md` / `README-ES.md`, una guía de uso (`docs/how-to-use.md` / `docs/how-to-use-ES.md`) y `CONTRIBUTING.md` con la convención de dos ficheros por prompt y las reglas de estilo.
 - **Andamiaje del proyecto**: `LICENSE` MIT, `.gitignore` y una plantilla de issue de GitHub para proponer nuevos complementos de stack.
 
-[Sin publicar]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.1.0...HEAD
+[Sin publicar]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/dcarrero/awesome-code-review-prompts/releases/tag/v0.1.0
 
 ---

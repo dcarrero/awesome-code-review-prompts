@@ -15,7 +15,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-Groundwork for **0.2.0** — see [`ROADMAP.md`](./ROADMAP.md).
+_Nothing yet. Propose additions via a pull request — see [`CONTRIBUTING.md`](./CONTRIBUTING.md)._
+
+## [0.2.0] — 2026-07-04
+
+Wider stack coverage plus a quality-checked contribution pipeline. Grows the collection to 33 master prompts (8 general, 14 languages, 11 frameworks).
 
 ### Added
 
@@ -46,7 +50,8 @@ First public release: a curated, bilingual (EN/ES) collection of master prompts 
 - **Documentation**: `README.md` / `README-ES.md`, a usage guide (`docs/how-to-use.md` / `docs/how-to-use-ES.md`), and `CONTRIBUTING.md` with the two-files-per-prompt convention and style rules.
 - **Project scaffolding**: MIT `LICENSE`, `.gitignore`, and a GitHub issue template for proposing new stack add-ons.
 
-[Unreleased]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/dcarrero/awesome-code-review-prompts/releases/tag/v0.1.0
 
 ---
