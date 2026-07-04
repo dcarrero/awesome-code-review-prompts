@@ -19,11 +19,12 @@ mantienen coherente la colección (pares EN/ES, enlaces internos, estilo Markdow
 
 ### Contenido (prompts nuevos)
 
-- Lenguajes: **Ruby** ✅, **PowerShell**.
-- Frameworks: **Ruby on Rails** ✅, **Django**, **Spring Boot**, **Vue / Nuxt**.
-- Nueva dimensión general: **Revisión de tests y calidad de tests**.
+- Lenguajes: **Ruby** ✅, **PowerShell** ✅.
+- Frameworks: **Ruby on Rails** ✅, **Django** ✅, **Spring Boot** ✅, **Vue / Nuxt** ✅.
+- Nueva dimensión general: **Revisión de tests y calidad de tests** ✅.
 
-→ Crece la colección de 26 a 33 prompts maestros (8 generales, 14 lenguajes, 11 frameworks).
+→ Creció la colección de 26 a 33 prompts maestros (8 generales, 14 lenguajes, 11 frameworks).
+**Estado: contenido 0.2.0 completo — listo para etiquetar y publicar.**
 
 ### Herramientas y DX — ✅ hecho
 

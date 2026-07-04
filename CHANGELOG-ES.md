@@ -19,7 +19,9 @@ Base para la **0.2.0** — consulta [`ROADMAP-ES.md`](./ROADMAP-ES.md).
 
 ### Añadido
 
-- Complemento de lenguaje **Ruby** y complemento de framework **Ruby on Rails** (EN/ES) — primer contenido del hito 0.2.0.
+- **Nueva dimensión general** — Revisión de tests y calidad de tests (`prompts/general/testing.md`), integrada además en la revisión todo-en-uno como 7ª dimensión puntuada.
+- **Complementos de lenguaje** — Ruby y PowerShell (EN/ES).
+- **Complementos de framework** — Ruby on Rails, Django, Spring Boot y Vue / Nuxt (EN/ES).
 - **Puerta de calidad en CI** (`.github/workflows/quality.yml`): valida el emparejamiento EN/ES, los enlaces internos `.md` y el estilo Markdown en cada push y pull request.
 - **`scripts/check-structure.sh`** — comprobaciones estructurales sin dependencias (ficheros gemelos, footer de autor, bloque `text`, enlaces internos).
 - **Estilo `.markdownlint.jsonc`** y una **plantilla de pull request bilingüe**.

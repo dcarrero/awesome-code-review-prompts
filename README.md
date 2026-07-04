@@ -1,17 +1,17 @@
 # 🧠 Awesome Code Review Prompts
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Prompts](https://img.shields.io/badge/prompts-28-blue)
-![Stacks](https://img.shields.io/badge/stacks-21-orange)
+![Prompts](https://img.shields.io/badge/prompts-33-blue)
+![Stacks](https://img.shields.io/badge/stacks-25-orange)
 ![Languages](https://img.shields.io/badge/i18n-EN%20%7C%20ES-8A2BE2)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 > A curated, battle-tested collection of **master prompts** for asking an AI assistant
 > (built for **Claude Fable 5** and other Claude models) to review your code across the
 > dimensions that actually matter: **security, cybersecurity, performance, accessibility,
-> usability/UX, and code quality**.
+> usability/UX, testing, and code quality**.
 >
-> Language-agnostic master prompts + **21 stack-specific add-ons** (13 languages, 8 frameworks) — every prompt in **English and Spanish**.
+> Language-agnostic master prompts + **25 stack-specific add-ons** (14 languages, 11 frameworks) — every prompt in **English and Spanish**.
 
 🌍 **Español:** [`README-ES.md`](./README-ES.md) — every prompt has a Spanish twin ending in `-ES.md`.
 📖 **How to use it well:** [`docs/how-to-use.md`](./docs/how-to-use.md)
@@ -69,6 +69,7 @@ Every file is **English by default** (`name.md`) with a Spanish counterpart
 | ♿ Accessibility | [accessibility.md](./prompts/general/accessibility.md) | [accessibility-ES.md](./prompts/general/accessibility-ES.md) | WCAG 2.2 AA: semantics, keyboard, ARIA, contrast, forms, motion |
 | 🎯 Usability / UX | [usability-ux.md](./prompts/general/usability-ux.md) | [usability-ux-ES.md](./prompts/general/usability-ux-ES.md) | Clarity, flows, feedback/state, error recovery, microcopy, consistency |
 | 🧹 Code Quality | [code-quality.md](./prompts/general/code-quality.md) | [code-quality-ES.md](./prompts/general/code-quality-ES.md) | Correctness, design, tests, readability, maintainability |
+| 🧪 Testing & Test Quality | [testing.md](./prompts/general/testing.md) | [testing-ES.md](./prompts/general/testing-ES.md) | Behavior coverage, assertion strength, flakiness, over-mocking, missing regression tests |
 | 🧭 All-in-One | [all-in-one.md](./prompts/general/all-in-one.md) | [all-in-one-ES.md](./prompts/general/all-in-one-ES.md) | Runs every dimension and produces a single scored release report |
 
 ## 📑 Index — language add-ons
@@ -89,6 +90,7 @@ Append one of these **after** a general master prompt for deeper, idiomatic chec
 | Kotlin / Android | [kotlin-android.md](./prompts/languages/kotlin-android.md) | [·-ES.md](./prompts/languages/kotlin-android-ES.md) |
 | Rust | [rust.md](./prompts/languages/rust.md) | [·-ES.md](./prompts/languages/rust-ES.md) |
 | C / C++ | [c-cpp.md](./prompts/languages/c-cpp.md) | [·-ES.md](./prompts/languages/c-cpp-ES.md) |
+| PowerShell | [powershell.md](./prompts/languages/powershell.md) | [·-ES.md](./prompts/languages/powershell-ES.md) |
 | SQL / Databases | [sql.md](./prompts/languages/sql.md) | [·-ES.md](./prompts/languages/sql-ES.md) |
 
 ## 📑 Index — framework & DevOps add-ons
@@ -96,9 +98,12 @@ Append one of these **after** a general master prompt for deeper, idiomatic chec
 | Stack | English | Español |
 |---|---|---|
 | React / Next.js | [react-nextjs.md](./prompts/frameworks/react-nextjs.md) | [·-ES.md](./prompts/frameworks/react-nextjs-ES.md) |
+| Vue / Nuxt | [vue-nuxt.md](./prompts/frameworks/vue-nuxt.md) | [·-ES.md](./prompts/frameworks/vue-nuxt-ES.md) |
 | Laravel (PHP) | [laravel.md](./prompts/frameworks/laravel.md) | [·-ES.md](./prompts/frameworks/laravel-ES.md) |
 | Symfony (PHP) | [symfony.md](./prompts/frameworks/symfony.md) | [·-ES.md](./prompts/frameworks/symfony-ES.md) |
 | Ruby on Rails | [rails.md](./prompts/frameworks/rails.md) | [·-ES.md](./prompts/frameworks/rails-ES.md) |
+| Django (Python) | [django.md](./prompts/frameworks/django.md) | [·-ES.md](./prompts/frameworks/django-ES.md) |
+| Spring Boot (Java) | [spring-boot.md](./prompts/frameworks/spring-boot.md) | [·-ES.md](./prompts/frameworks/spring-boot-ES.md) |
 | Node.js / Express | [nodejs.md](./prompts/frameworks/nodejs.md) | [·-ES.md](./prompts/frameworks/nodejs-ES.md) |
 | Docker / Kubernetes | [docker-kubernetes.md](./prompts/frameworks/docker-kubernetes.md) | [·-ES.md](./prompts/frameworks/docker-kubernetes-ES.md) |
 | Terraform / IaC | [terraform.md](./prompts/frameworks/terraform.md) | [·-ES.md](./prompts/frameworks/terraform-ES.md) |
