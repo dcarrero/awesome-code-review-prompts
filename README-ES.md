@@ -8,7 +8,7 @@
 ![PRs bienvenidos](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 > Una colección curada y probada de **prompts maestros** para pedirle a un asistente de IA
-> (pensado para **Claude Fable 5** y compatible con cualquier modelo frontera — GPT-5.x,
+> (pensado para **Claude Fable 5** y compatible con cualquier modelo frontera — GPT-5.6 / GPT-5.x,
 > Gemini, Grok y más) que revise tu código en las
 > dimensiones que de verdad importan: **seguridad, ciberseguridad, rendimiento,
 > accesibilidad, usabilidad/UX, testing, seguridad IA/LLM y calidad de código**.
@@ -69,7 +69,7 @@ instrucciones estructurado.
 |---|---|
 | **Claude Fable 5** — *recomendado* | El modelo para el que están ajustados. Pega el bloque `text` y luego tu diff. |
 | Claude Opus 4.x / Sonnet | Misma familia Claude; intercambiable. |
-| OpenAI GPT-5.x | Intercambiable; pega el mismo bloque `text`. |
+| OpenAI GPT-5.6 (y la familia GPT-5.x) | Intercambiable; pega el mismo bloque `text`. |
 | Google Gemini | Intercambiable; da alcance explícito en diffs grandes. |
 | xAI Grok · DeepSeek · otros modelos frontera | Funcionan con los mismos prompts; conserva el paso de preguntas de clarificación. |
 

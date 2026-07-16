@@ -17,6 +17,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Nothing yet. Propose additions via a pull request — see [`CONTRIBUTING.md`](./CONTRIBUTING.md)._
 
+## [0.4.1] — 2026-07-16
+
+### Changed
+
+- Cite **OpenAI GPT-5.6** explicitly alongside the GPT-5.x family in the model-compatibility section, taglines, and how-to-use guides (EN/ES) — wording only.
+
 ## [0.4.0] — 2026-07-16
 
 Broadens the collection's positioning. These are plain-text, model-agnostic prompts, and the docs now make that explicit: they are tuned against **Claude Fable 5** and compatible with any other frontier model.
@@ -72,7 +78,8 @@ First public release: a curated, bilingual (EN/ES) collection of master prompts 
 - **Documentation**: `README.md` / `README-ES.md`, a usage guide (`docs/how-to-use.md` / `docs/how-to-use-ES.md`), and `CONTRIBUTING.md` with the two-files-per-prompt convention and style rules.
 - **Project scaffolding**: MIT `LICENSE`, `.gitignore`, and a GitHub issue template for proposing new stack add-ons.
 
-[Unreleased]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.4.0...HEAD
+[Unreleased]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.4.1...HEAD
+[0.4.1]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.1.0...v0.2.0

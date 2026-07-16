@@ -8,8 +8,8 @@
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 > A curated, battle-tested collection of **master prompts** for asking an AI assistant
-> (built for **Claude Fable 5** and compatible with any frontier model — GPT-5.x, Gemini,
-> Grok, and more) to review your code across the
+> (built for **Claude Fable 5** and compatible with any frontier model — GPT-5.6 / GPT-5.x,
+> Gemini, Grok, and more) to review your code across the
 > dimensions that actually matter: **security, cybersecurity, performance, accessibility,
 > usability/UX, testing, AI/LLM safety, and code quality**.
 >
@@ -65,7 +65,7 @@ work with any other frontier model that can follow a structured instruction set.
 |---|---|
 | **Claude Fable 5** — *recommended* | The default these prompts are tuned for. Paste the `text` block, then your diff. |
 | Claude Opus 4.x / Sonnet | Same Claude family; drop-in. |
-| OpenAI GPT-5.x | Drop-in; paste the same `text` block. |
+| OpenAI GPT-5.6 (and the GPT-5.x family) | Drop-in; paste the same `text` block. |
 | Google Gemini | Drop-in; give explicit scope on large diffs. |
 | xAI Grok · DeepSeek · other frontier models | Work with the same prompts; keep the clarifying-questions step. |
 

@@ -8,7 +8,7 @@ Ideas, patterns, and workflows to get the most out of **Awesome Code Review Prom
 ## The 30-second version
 
 1. Open a general prompt (e.g. [`security.md`](../prompts/general/security.md)) and copy the block inside ```` ```text ````.
-2. Paste it into Claude — or any frontier model (**Claude Fable 5** recommended; also GPT-5.x, Gemini, Grok, DeepSeek).
+2. Paste it into Claude — or any frontier model (**Claude Fable 5** recommended; also GPT-5.6 / GPT-5.x, Gemini, Grok, DeepSeek).
 3. Under it, paste your code — a `git diff`, a file, or several files.
 4. *(Optional)* Paste a language/framework add-on too (e.g. `laravel.md`) for idiomatic depth.
 5. Answer the up-to-3 clarifying questions, then read the prioritized findings.
