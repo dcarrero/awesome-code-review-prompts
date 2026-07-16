@@ -4,10 +4,12 @@
 ![Prompts](https://img.shields.io/badge/prompts-39-blue)
 ![Stacks](https://img.shields.io/badge/stacks-30-orange)
 ![Languages](https://img.shields.io/badge/i18n-EN%20%7C%20ES-8A2BE2)
+![Models](https://img.shields.io/badge/models-Claude%20Fable%205%20%2B%20frontier-blueviolet)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 > A curated, battle-tested collection of **master prompts** for asking an AI assistant
-> (built for **Claude Fable 5** and other Claude models) to review your code across the
+> (built for **Claude Fable 5** and compatible with any frontier model — GPT-5.x, Gemini,
+> Grok, and more) to review your code across the
 > dimensions that actually matter: **security, cybersecurity, performance, accessibility,
 > usability/UX, testing, AI/LLM safety, and code quality**.
 >
@@ -52,6 +54,23 @@ This repo gives you those prompts, ready to paste, for any project and any langu
 
 > 💡 Every master prompt ends by asking the model to request up to 3 clarifying questions
 > before reviewing — so it gathers context instead of guessing.
+
+## 🤖 Model compatibility
+
+Every prompt here is **plain text** — nothing is hard-wired to one vendor. The collection is
+authored and tuned against **Claude Fable 5** (the recommended default), and the same prompts
+work with any other frontier model that can follow a structured instruction set.
+
+| Model | How to use it |
+|---|---|
+| **Claude Fable 5** — *recommended* | The default these prompts are tuned for. Paste the `text` block, then your diff. |
+| Claude Opus 4.x / Sonnet | Same Claude family; drop-in. |
+| OpenAI GPT-5.x | Drop-in; paste the same `text` block. |
+| Google Gemini | Drop-in; give explicit scope on large diffs. |
+| xAI Grok · DeepSeek · other frontier models | Work with the same prompts; keep the clarifying-questions step. |
+
+> 💡 The prompts don't depend on any model-specific feature. If a model reliably respects the
+> **Output contract** and asks the **clarifying questions**, you'll get comparable results.
 
 ## Language convention
 

@@ -8,7 +8,7 @@ Ideas, patrones y flujos de trabajo para sacar el máximo partido a **Awesome Co
 ## La versión en 30 segundos
 
 1. Abre un prompt general (p. ej. [`security-ES.md`](../prompts/general/security-ES.md)) y copia el bloque dentro de ```` ```text ````.
-2. Pégalo en Claude.
+2. Pégalo en Claude — o en cualquier modelo frontera (**Claude Fable 5** recomendado; también GPT-5.x, Gemini, Grok, DeepSeek).
 3. Debajo, pega tu código — un `git diff`, un fichero o varios.
 4. *(Opcional)* Pega también un complemento de lenguaje/framework (p. ej. `laravel-ES.md`) para profundidad idiomática.
 5. Responde las hasta 3 preguntas de clarificación y lee los hallazgos priorizados.

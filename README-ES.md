@@ -4,10 +4,12 @@
 ![Prompts](https://img.shields.io/badge/prompts-39-blue)
 ![Stacks](https://img.shields.io/badge/stacks-30-orange)
 ![Idiomas](https://img.shields.io/badge/i18n-EN%20%7C%20ES-8A2BE2)
+![Modelos](https://img.shields.io/badge/models-Claude%20Fable%205%20%2B%20frontier-blueviolet)
 ![PRs bienvenidos](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 > Una colección curada y probada de **prompts maestros** para pedirle a un asistente de IA
-> (pensado para **Claude Fable 5** y otros modelos Claude) que revise tu código en las
+> (pensado para **Claude Fable 5** y compatible con cualquier modelo frontera — GPT-5.x,
+> Gemini, Grok y más) que revise tu código en las
 > dimensiones que de verdad importan: **seguridad, ciberseguridad, rendimiento,
 > accesibilidad, usabilidad/UX, testing, seguridad IA/LLM y calidad de código**.
 >
@@ -55,6 +57,25 @@ Este repo te da esos prompts, listos para pegar, para cualquier proyecto y lengu
 
 > 💡 Cada prompt maestro termina pidiendo al modelo que haga hasta 3 preguntas de
 > clarificación antes de revisar — así reúne contexto en vez de adivinar.
+
+## 🤖 Compatibilidad de modelos
+
+Todos los prompts son **texto plano** — nada está atado a un proveedor concreto. La colección
+está escrita y ajustada para **Claude Fable 5** (el modelo recomendado por defecto), y los
+mismos prompts funcionan con cualquier otro modelo frontera capaz de seguir un conjunto de
+instrucciones estructurado.
+
+| Modelo | Cómo usarlo |
+|---|---|
+| **Claude Fable 5** — *recomendado* | El modelo para el que están ajustados. Pega el bloque `text` y luego tu diff. |
+| Claude Opus 4.x / Sonnet | Misma familia Claude; intercambiable. |
+| OpenAI GPT-5.x | Intercambiable; pega el mismo bloque `text`. |
+| Google Gemini | Intercambiable; da alcance explícito en diffs grandes. |
+| xAI Grok · DeepSeek · otros modelos frontera | Funcionan con los mismos prompts; conserva el paso de preguntas de clarificación. |
+
+> 💡 Los prompts no dependen de ninguna función específica de un modelo. Si el modelo respeta
+> el **Contrato de salida** y hace las **preguntas de clarificación**, obtendrás resultados
+> comparables.
 
 ## Convención de idioma
 

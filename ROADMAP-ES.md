@@ -44,6 +44,13 @@ conserva el footer de autor, actualiza el changelog bajo `[Sin publicar]` y pasa
 
 → La colección ahora tiene 39 prompts maestros (9 generales, 14 lenguajes, 16 frameworks).
 
+## 0.4.0 — Compatibilidad de modelos ✅ publicado
+
+- Documentado que los prompts son agnósticos del modelo: una sección **"Compatibilidad de
+  modelos"** en ambos READMEs y un badge `models`, ajustados para **Claude Fable 5** y
+  compatibles con **OpenAI GPT-5.x**, **Google Gemini**, **xAI Grok**, **DeepSeek** y otros
+  modelos frontera.
+
 ## Backlog (futuro)
 
 - **Lenguajes:** Elixir, Dart, Scala, R.

@@ -17,6 +17,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Nothing yet. Propose additions via a pull request — see [`CONTRIBUTING.md`](./CONTRIBUTING.md)._
 
+## [0.4.0] — 2026-07-16
+
+Broadens the collection's positioning. These are plain-text, model-agnostic prompts, and the docs now make that explicit: they are tuned against **Claude Fable 5** and compatible with any other frontier model.
+
+### Added
+
+- **"Model compatibility" section** in `README.md` / `README-ES.md`, documenting that the prompts work with **Claude Fable 5** (recommended default), **Claude Opus 4.x / Sonnet**, **OpenAI GPT-5.x**, **Google Gemini**, **xAI Grok**, **DeepSeek**, and other frontier models.
+- **`models` badge** on both READMEs.
+
+### Changed
+
+- Reframed the README / README-ES tagline and the how-to-use quick start from "built for Claude" to "built for **Claude Fable 5** and compatible with any frontier model" — no change to what any prompt asks for.
+
 ## [0.3.0] — 2026-07-04
 
 Five new stacks and a new dimension. Grows the collection to 39 master prompts (9 general, 14 languages, 16 frameworks).
@@ -59,7 +72,8 @@ First public release: a curated, bilingual (EN/ES) collection of master prompts 
 - **Documentation**: `README.md` / `README-ES.md`, a usage guide (`docs/how-to-use.md` / `docs/how-to-use-ES.md`), and `CONTRIBUTING.md` with the two-files-per-prompt convention and style rules.
 - **Project scaffolding**: MIT `LICENSE`, `.gitignore`, and a GitHub issue template for proposing new stack add-ons.
 
-[Unreleased]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/dcarrero/awesome-code-review-prompts/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/dcarrero/awesome-code-review-prompts/releases/tag/v0.1.0

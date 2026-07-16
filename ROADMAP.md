@@ -44,6 +44,12 @@ the author footer, updates the changelog under `[Unreleased]`, and passes CI.
 
 → Collection now at 39 master prompts (9 general, 14 languages, 16 frameworks).
 
+## 0.4.0 — Model compatibility ✅ shipped
+
+- Documented that the prompts are model-agnostic: a **"Model compatibility"** section on both
+  READMEs and a `models` badge, tuned against **Claude Fable 5** and compatible with
+  **OpenAI GPT-5.x**, **Google Gemini**, **xAI Grok**, **DeepSeek**, and other frontier models.
+
 ## Backlog (future)
 
 - **Languages:** Elixir, Dart, Scala, R.
